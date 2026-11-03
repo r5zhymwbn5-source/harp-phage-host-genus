@@ -1,0 +1,126 @@
+{
+  "config": {
+    "version": "harp-heldout-fewshot-2.0",
+    "episodes": 200,
+    "shots": [
+      1,
+      5,
+      10
+    ],
+    "nway": 5,
+    "queries": 10,
+    "seed": 2026,
+    "source_hashes": {
+      "labels": "79c625242291f9cd0bd53bc2f683cbe2d6b09776e88915fe71bcb549f68c0d5d",
+      "groups": "72389a0e686c149a585f76d1a862c83799f2f2c279d1a5a82c32e99b115d5182",
+      "split": "1ecc4afff4e7d013d1ec21f50659fab612a254e4bddd5929577833d5d67d34fa"
+    }
+  },
+  "episodes": 200,
+  "n_way": 5,
+  "shots": [
+    1,
+    5,
+    10
+  ],
+  "queries_per_genus": 10,
+  "episode_seed": 2026,
+  "eligible_genus_ids": [
+    1,
+    3,
+    6,
+    15,
+    17,
+    20,
+    26,
+    30,
+    34
+  ],
+  "genus_counts": {
+    "1": {
+      "n_genomes": 394,
+      "n_clusters": 170,
+      "largest_cluster": 34,
+      "episode_eligible": true
+    },
+    "3": {
+      "n_genomes": 308,
+      "n_clusters": 161,
+      "largest_cluster": 13,
+      "episode_eligible": true
+    },
+    "6": {
+      "n_genomes": 150,
+      "n_clusters": 66,
+      "largest_cluster": 23,
+      "episode_eligible": true
+    },
+    "15": {
+      "n_genomes": 194,
+      "n_clusters": 86,
+      "largest_cluster": 25,
+      "episode_eligible": true
+    },
+    "17": {
+      "n_genomes": 219,
+      "n_clusters": 18,
+      "largest_cluster": 76,
+      "episode_eligible": true
+    },
+    "20": {
+      "n_genomes": 1593,
+      "n_clusters": 508,
+      "largest_cluster": 164,
+      "episode_eligible": true
+    },
+    "26": {
+      "n_genomes": 30,
+      "n_clusters": 28,
+      "largest_cluster": 2,
+      "episode_eligible": true
+    },
+    "30": {
+      "n_genomes": 68,
+      "n_clusters": 36,
+      "largest_cluster": 15,
+      "episode_eligible": true
+    },
+    "34": {
+      "n_genomes": 114,
+      "n_clusters": 55,
+      "largest_cluster": 16,
+      "episode_eligible": true
+    }
+  },
+  "class_draw_counts": {
+    "1": 109,
+    "3": 121,
+    "6": 110,
+    "15": 105,
+    "17": 110,
+    "20": 118,
+    "26": 112,
+    "30": 107,
+    "34": 108
+  },
+  "skipped_class_draws": 0,
+  "skipped_episodes": 0,
+  "rejected_partitions": 3,
+  "episodes_requiring_partition_retry": 3,
+  "maximum_partition_attempts_used": 2,
+  "sampling_policy": "Uniform held-out genus draw without replacement; independent Bernoulli(0.5) physical-cluster partition conditioned on sufficient rows for all chosen genera; uniform rows without replacement within each genus/side. No class draws skipped.",
+  "support_query_policy": "Globally disjoint canonical rows_thr0.3 groups, including mixed-host groups. Disjoint genome rows; multiple groups may contribute to each genus/side. Same class draws and queries at every shot count; support is a nested prefix of the maximum-shot support array.",
+  "query_count_selection": "Fixed before scoring from count-only feasibility; 10 queries retained because all nine held-out genera are eligible.",
+  "frozen_episodes_sha256": "c742718d8dae6e85a2334ed6c0fc5ddcb0524fa91d7c33d9205d78bc3d24bb13",
+  "array_digests": {
+    "class_ids": "1486daedbab3dde087a483218d1b13865d38eaa7980a755f664e92280b51715e",
+    "support_indices": "daa4438ff824b7b7a752f571357a68a6d4e4f0e525a0a8f9bc9a44e7c01fcd32",
+    "query_indices": "5441bbc2d53f977ace75b199398bd8ca81ce3803b1bc66b40b4fc7337a946cb1",
+    "support_labels": "e36914f7efeef05fea2bb2aeffb8f4e806c568a590e60534d81bc7fc49d1d7ea",
+    "query_labels": "e36914f7efeef05fea2bb2aeffb8f4e806c568a590e60534d81bc7fc49d1d7ea",
+    "support_groups": "a3339ea65999a6f3531a2839659842d727dd7c2c4876b50b05d50fbe66a9456e",
+    "query_groups": "61e4db34cd288708c39c8756b3ab146f3fcdef7433b1352cafcdcd08c2684270",
+    "shots": "a6f557104dfcf2ec97c97b9bf5dd97d9f2746ded7d0f0710ec02709748efe47f",
+    "partition_attempts": "dfa38ba9120668513448857fc7829db71e6762915467d9d9102c735192f8fd16"
+  }
+}

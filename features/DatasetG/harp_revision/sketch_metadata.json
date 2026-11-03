@@ -1,0 +1,13 @@
+{
+  "config": {
+    "k": 21,
+    "scale": 64,
+    "seed": 2026,
+    "hash_threshold_inclusive": 288230376151711743,
+    "sequence_sha256": "3e4e326576ae6f974a8f1691706652edeb486f7fcb1dffe5dc841315f9950f00"
+  },
+  "n_genomes": 18407,
+  "unique_sampled_hashes": 5286480,
+  "incidence_nnz": 20293552,
+  "sketch_build_seconds": 76.46065059999819
+}

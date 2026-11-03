@@ -1,0 +1,78 @@
+{
+  "source_snapshot_matches_recorded_source": true,
+  "artifact_digest_verification": {
+    "canonical_sketch_incidence.npz": true,
+    "canonical_sketch_hashes.npy": true,
+    "canonical_edges_ge030.npz": true,
+    "canonical_clusters.npz": true
+  },
+  "protocols": {
+    "Q1-canonical90": {
+      "all_split_hashes_match": true,
+      "train_local_groups_equal_induced_graph_recomputation": true,
+      "rows_disjoint": true,
+      "boundary_audit": {
+        "threshold": 0.9,
+        "all_boundary_edges": 0,
+        "train_test_edges": 0,
+        "val_test_edges": 0,
+        "train_val_edges": 0
+      }
+    },
+    "Q2-canonical30": {
+      "all_split_hashes_match": true,
+      "train_local_groups_equal_induced_graph_recomputation": true,
+      "rows_disjoint": true,
+      "boundary_audit": {
+        "threshold": 0.3,
+        "all_boundary_edges": 0,
+        "train_test_edges": 0,
+        "val_test_edges": 0,
+        "train_val_edges": 0
+      }
+    },
+    "Q3-unseen-genus": {
+      "all_split_hashes_match": true,
+      "train_local_groups_equal_induced_graph_recomputation": true,
+      "rows_disjoint": true,
+      "boundary_audit": {
+        "threshold": 0.3,
+        "all_boundary_edges": 0,
+        "train_test_edges": 0,
+        "val_test_edges": 0,
+        "train_val_edges": 0
+      }
+    }
+  },
+  "real_genome_reverse_complement_invariance": {
+    "checked_rows": [
+      14513,
+      7413,
+      14099,
+      6162,
+      13496,
+      2457,
+      16870,
+      4290,
+      2671,
+      14980,
+      14120,
+      11326,
+      8725,
+      2479,
+      11025,
+      18203
+    ],
+    "all_passed": true
+  },
+  "full_vs_sampled_jaccard_diagnostic": {
+    "selection": "seed2026,20pairs in each of5sampled-J bins; diagnostic only, not used in protocol construction",
+    "n_pairs": 100,
+    "mean_absolute_error": 0.008977712924001789,
+    "median_absolute_error": 0.006345072523330109,
+    "max_absolute_error": 0.06699860877205827,
+    "sampled_ge03_but_full_below03": 2,
+    "sampled_ge09_but_full_below09": 1,
+    "caution": "This diagnostic does not certify full-set or biological homology separation."
+  }
+}

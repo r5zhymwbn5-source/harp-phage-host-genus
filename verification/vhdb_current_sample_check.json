@@ -1,0 +1,11 @@
+{
+  "url": "https://www.genome.jp/ftp/db/virushostdb/virushostdb.formatted.genomic.fna.gz",
+  "comparison_date": "2026-11-03",
+  "sampling": "first 128 accession-sorted local genomes; convenience sample, not random",
+  "requested": 128,
+  "found": 128,
+  "identical": 128,
+  "different": [],
+  "not_found": [],
+  "scope": "sequence comparison with current VHDB only; neither historical source release nor host-label provenance established"
+}

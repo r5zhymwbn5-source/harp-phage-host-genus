@@ -1,0 +1,8 @@
+{
+  "positive_intersection_pairs": 1965398,
+  "boundary_edges": {
+    "Q1-canonical90": 0,
+    "Q2-canonical30": 0
+  },
+  "scope": "exact exhaustive comparison of saved sampled sketch sets; not full genomes, sequence identity, or absence of homology"
+}
