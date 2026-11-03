@@ -8,7 +8,7 @@ The dataset construction code records Virus–Host DB formatted protein and geno
 
 The frozen derived ESM-2 genome vectors, labels, accession-level metadata, sequence-hash manifests, CDS-to-genome mapping, split indices, sketches, and predictions are provided. The original third-party FASTA files, original genome and protein sequences, and original pretrained ESM-2 weights are not included. `genome_sequence_sha256.csv.gz` and `cds_sequence_sha256.csv.gz` fingerprint the exact retained local sequences but do not reconstruct them. The CDS mapping indexes the hash rows. Data from a current database release may differ, so rerunning the initial data construction from today's download is not guaranteed to reproduce the original dataset. A convenience sample of the first 128 accession-sorted local genomes matched the current VHDB genomic file in November 2026; this does not establish the original release or validate the historical host labels.
 
-ESM-2 650M was used to produce the 1,280-dimensional frozen vectors: <https://huggingface.co/facebook/esm2_t33_650M_UR50D>. Refer to the upstream model and database for their own terms and citations. No general license for the study code or derived artifacts is specified in this repository; contact the authors for reuse permissions.
+ESM-2 650M was used to produce the 1,280-dimensional frozen vectors: <https://huggingface.co/facebook/esm2_t33_650M_UR50D>. The original study software in this repository is available under the MIT license in `LICENSE`. That license does not change the terms of the upstream model, database, or third-party data; refer to the respective sources for their terms and citations. No separate license is asserted here for the derived data and model artifacts.
 
 ## Layout
 
